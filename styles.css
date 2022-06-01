@@ -1,0 +1,107 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.lista{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 50vw;
+}
+.lista li{
+    width:200px;
+    padding: 10px;
+}
+.lista li:hover{
+    font-weight: 600;
+}
+.secao1{
+    display: flex;
+    background-image: url(./fotos/azul\ laranja.png);
+    height: 80vh;
+    background-size: cover;
+    align-items:flex-start;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+  
+}
+.frase1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+.frase2{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    height: 10vh;
+}
+.rodape1{
+    width: 35vw;
+}
+.portflow{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+}
+.portflow:hover{
+    font-weight: 900;
+}
+.escritos{
+    height: 40vh;
+    width: 50vw;
+}
+.boxrodape{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+}
+.fotos{
+    width: 20vw;
+    height: 40vh;
+}
+.boxmae{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97,5vw;
+    height: 150vh;
+}
+.box{
+    display: flex;
+    width: 100vw;
+    height:130vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.icones{
+    width: 1vw;
+}
+.face{
+    width: 1vw;
+}
+figure{
+    display: flex;
+    width: 27vw;
+    height: 3vh;
+    justify-content: space-evenly;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    width: 7vw;
+}
+@media(max-width:510px){
+    .lista li{
+     font-size: 0.7rem;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+}
